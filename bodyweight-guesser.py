@@ -1,9 +1,9 @@
 import pandas as pd
 from sklearn import linear_model
-import matploitlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # read data
-data_frame = pd.read_fwf('data.txt')
+dataframe = pd.read_fwf('brain_body_2')
 x_values = dataframe[['Brain']]
 y_values = dataframe[['Body']]
 
